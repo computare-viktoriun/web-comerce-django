@@ -10,4 +10,4 @@ from rest_framework.filters import SearchFilter
 class BaseUserViewSet(viewsets.ModelViewSet):
     queryset = BaseUser.objects.all()
     serializer_class = BaseUserSerializer
-    permission_classes = [IsAuthenticated]
+   #permission_classes = [IsAuthenticated]
