@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'web_loja',
     'rest_framework',
     'corsheaders',
+    'authentication',
+    'home',
 ]
 
 MIDDLEWARE = [
@@ -135,7 +137,7 @@ REST_FRAMEWORK = {
 }
 
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=5),
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=0.8),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
     'AUTH_HEADER_TYPES': ('Bearer',)
 }
