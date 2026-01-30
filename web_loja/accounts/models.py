@@ -3,5 +3,5 @@ from django.db import models
 
 # Create your models here.
 class BaseUser(AbstractUser):
-    idade = models.PositiveIntegerField(null=True, blank=True)
-
+    #idade = models.PositiveIntegerField(null=True, blank=True)
+    pass
